@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWEBXyIfDnIV7nEnX661A.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWEBXyIfDnIV7nEnX661A.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Spectral";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spectral/v7/rnCt-xNNww_2s0amA9M8onrmTA.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Spectral";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spectral/v7/rnCu-xNNww_2s0amA9M8qsHDWfSFXQ.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spectral/v7/rnCr-xNNww_2s0amA9M5kng.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spectral/v7/rnCs-xNNww_2s0amA9uCt23BafY.woff2)
+    format("woff2");
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.colors,
+.fonts,
+.text_styles,
+.additional_styles {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Colors */
+
+.colors p{
+  font-family: 'Spectral', serif;
+}
+
+.colors div {
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.dark_cyan {
+  background-color: #026670;
+}
+.mint {
+  background-color: #9fedd7;
+}
+
+.lemon {
+  background-color: #fef9c7;
+}
+
+.yellow {
+  background-color: #fce181;
+}
+
+.pale_grey {
+  background-color: #edeae5;
+}
+
+/* Fonts */
+
+.fonts .spectral h3,
+.fonts .rubik h3,
+.additional_styles h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: left;
+}
+
+.fonts p,
+.text_styles ul,
+.additional_styles ul {
+  font-size: 25px;
+  text-align: left;
+}
+
+.fonts .rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.fonts .spectral {
+  font-family: "Spectral", serif;
+}
+
+.fonts,
+.text_styles,
+.additional_styles {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.fonts .first_p {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fonts .second_p {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.fonts .third_p {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.fonts .fourth_p {
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* Text Styles */
+
+.text_styles li,
+.text_styles p,
+.additional_styles li {
+  font-family: "Spectral", serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Additional Styles */
+
